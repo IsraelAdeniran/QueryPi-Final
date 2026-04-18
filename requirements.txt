@@ -1,0 +1,24 @@
+# requirements.txt
+# All dependencies required to run the QueryPi experiment.
+# Install with: pip install -r requirements.txt
+
+# Ollama Python client
+# Used to send questions to the locally running Ollama models
+ollama
+
+# Vector database
+# Used to store and query embedded document chunks locally
+chromadb
+
+# Embedding model
+# Used to embed questions and document chunks into vectors
+# all-MiniLM-L6-v2 is lightweight and suitable for the Raspberry Pi
+sentence-transformers
+
+# PDF reading
+# Used to extract text from the local PDF documents
+pypdf
+
+# System monitoring
+# Used to measure peak RAM usage during model inference
+psutil

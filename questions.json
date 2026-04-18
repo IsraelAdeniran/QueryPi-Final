@@ -1,0 +1,164 @@
+{
+  "solar_factual": [
+    {
+      "id": "Q1",
+      "question": "What are the two main chemical elements that make up Jupiter and Saturn?",
+      "reference_answer": "Hydrogen and helium"
+    },
+    {
+      "id": "Q2",
+      "question": "What is the surface temperature range on Mercury?",
+      "reference_answer": "280 to 430 degrees Celsius on its sunlit side"
+    },
+    {
+      "id": "Q3",
+      "question": "Which planet has a thick carbon dioxide atmosphere that keeps its surface temperature at around 700 K?",
+      "reference_answer": "Venus"
+    },
+    {
+      "id": "Q4",
+      "question": "How old is the solar system?",
+      "reference_answer": "Approximately 4.5 billion years old"
+    },
+    {
+      "id": "Q5",
+      "question": "What is the name of Jupiter's moon that may have an ocean under its frozen ice?",
+      "reference_answer": "Europa"
+    }
+  ],
+  "solar_conceptual": [
+    {
+      "id": "Q6",
+      "question": "Why are Jupiter and Saturn sometimes misleadingly called gas planets?",
+      "reference_answer": "Because the gas in their interiors is compressed by gravity until the hydrogen becomes a liquid, meaning the bulk of both planets consists of compressed liquefied hydrogen rather than gas"
+    },
+    {
+      "id": "Q7",
+      "question": "Why does Venus have higher surface temperatures than Mercury despite being farther from the Sun?",
+      "reference_answer": "Because Venus has a thick atmosphere of carbon dioxide that acts as insulation, trapping heat at the surface through the greenhouse effect, whereas Mercury has no atmosphere to retain heat"
+    },
+    {
+      "id": "Q8",
+      "question": "Why is Earth the only planet in the solar system that can support life as we know it?",
+      "reference_answer": "Because Earth is the only planet where surface temperatures generally lie between the freezing and boiling points of water, making liquid water possible"
+    },
+    {
+      "id": "Q9",
+      "question": "Why do asteroids and comets help scientists understand the early solar system?",
+      "reference_answer": "Because most asteroids and comets retain their original composition and were never heated to the melting point, making them relatively unmodified material from the time of the solar system's formation"
+    },
+    {
+      "id": "Q10",
+      "question": "Why does a planet's distance from the Sun affect its surface temperature?",
+      "reference_answer": "Because planets are heated by radiant energy from the Sun, which gets weaker with the square of the distance, meaning the farther a planet is from the Sun the less energy it receives and the cooler its surface"
+    }
+  ],
+  "solar_document_dependent": [
+    {
+      "id": "Q11",
+      "question": "According to the document, what is the term used for the category of objects invented to include Pluto and similar icy objects beyond Neptune?",
+      "reference_answer": "Dwarf planet"
+    },
+    {
+      "id": "Q12",
+      "question": "According to the document, what event in 1994 provided dramatic evidence that planetary bombardment continues today?",
+      "reference_answer": "The collision of more than 20 large pieces of Comet Shoemaker-Levy 9 with Jupiter"
+    },
+    {
+      "id": "Q13",
+      "question": "According to the document, what spacecraft missions are mentioned as having landed on or orbited planets and moons in the solar system?",
+      "reference_answer": "Voyager, Pioneer, Curiosity, and Pathfinder"
+    },
+    {
+      "id": "Q14",
+      "question": "According to the document, what is the surface temperature on Pluto, and how does it compare to Mercury?",
+      "reference_answer": "Pluto's temperature is about -220 degrees Celsius, which is colder than liquid air, and is less than that of Mercury by a factor of 10"
+    },
+    {
+      "id": "Q15",
+      "question": "According to the document, why would the oceans of Earth be permanently frozen without its atmosphere?",
+      "reference_answer": "Because without atmospheric insulation from the greenhouse effect, Earth would not retain enough heat to keep its oceans liquid"
+    }
+  ],
+  "roman_factual": [
+    {
+      "id": "Q16",
+      "question": "What was the Latin term for the government's official distribution of grain to the Roman populace?",
+      "reference_answer": "The annona"
+    },
+    {
+      "id": "Q17",
+      "question": "What were large agricultural estates in the Roman countryside known as?",
+      "reference_answer": "Latifundia"
+    },
+    {
+      "id": "Q18",
+      "question": "What was the dining room in a Roman home called?",
+      "reference_answer": "The triclinium"
+    },
+    {
+      "id": "Q19",
+      "question": "What was the formal process by which deceased emperors were made gods called?",
+      "reference_answer": "Apotheosis"
+    },
+    {
+      "id": "Q20",
+      "question": "What were the large storage vessels used to ship wine and olive oil across the Roman Empire called?",
+      "reference_answer": "Amphorae"
+    }
+  ],
+  "roman_conceptual": [
+    {
+      "id": "Q21",
+      "question": "Why was the layout of a wealthy Roman home designed to impress visitors?",
+      "reference_answer": "Because the floor plan emphasised the power relationship between a patron and his clients, as well as the authority and prestige of the paterfamilias, with fountains, gardens, and lavish features positioned so guests could see them upon arrival"
+    },
+    {
+      "id": "Q22",
+      "question": "Why was the annona both an economic and a political tool for Roman emperors?",
+      "reference_answer": "Because while it kept the populace fed, it also allowed emperors to associate themselves with generosity and build public support, meaning the distribution of grain was tied to the personality and image of the emperor"
+    },
+    {
+      "id": "Q23",
+      "question": "Why did the Roman Empire rely so heavily on Egypt for its grain supply?",
+      "reference_answer": "Because Egypt functioned as the empire's breadbasket, producing grain on a large scale, which freed Italian farmers to focus on higher-priced agricultural products like wine and olive oil"
+    },
+    {
+      "id": "Q24",
+      "question": "Why was the imperial cult significant in Roman religious and political life?",
+      "reference_answer": "Because it connected religious practice with political loyalty by deifying deceased emperors, making worship of the emperor part of public life and allowing priesthoods attached to the cult to advance men's public careers"
+    },
+    {
+      "id": "Q25",
+      "question": "Why were the navicularii compelled by the Roman government to join collegia?",
+      "reference_answer": "So they could be easily supervised, and in exchange for signing contracts to supply grain they received benefits including exemption from other public service"
+    }
+  ],
+  "roman_document_dependent": [
+    {
+      "id": "Q26",
+      "question": "According to the document, from what regions did the Roman Empire source silk and furs through the monsoon-driven Indian Ocean trade network?",
+      "reference_answer": "Silk came from China and India, and furs came from the Baltic region"
+    },
+    {
+      "id": "Q27",
+      "question": "According to the document, which emperor ruled from 138 to 161 CE and used the annona to create a positive public image?",
+      "reference_answer": "Hadrian"
+    },
+    {
+      "id": "Q28",
+      "question": "According to the document, what was the role of the praefectus annonae?",
+      "reference_answer": "The prefect who oversaw the grain distribution process, governed the ports to which grain was shipped, addressed fraud in the market, and secured the grain supply from Egypt and other regions by signing contracts with suppliers"
+    },
+    {
+      "id": "Q29",
+      "question": "According to the document, what happened to glass manufacturing in central Italy in the second century CE?",
+      "reference_answer": "Manufacturing in Gaul (present-day France) and Germany took over the majority of its production"
+    },
+    {
+      "id": "Q30",
+      "question": "According to the document, what volcanic event preserved the city of Pompeii and made it a key source of information about daily Roman life?",
+      "reference_answer": "The eruption of Mount Vesuvius in 79 CE"
+    }
+  ]
+}
