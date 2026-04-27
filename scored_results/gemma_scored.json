@@ -1,0 +1,1158 @@
+{
+  "model": "Gemma 2B",
+  "ollama_tag": "gemma:2b-instruct-q4_0",
+  "temperature": 0.0,
+  "context_window": 2048,
+  "results": [
+    {
+      "id": "Q1",
+      "condition": "A",
+      "question": "What are the two main chemical elements that make up Jupiter and Saturn?",
+      "reference_answer": "Hydrogen and helium",
+      "model_answer": "Jupiter and Saturn are gas giants in our solar system, composed primarily of hydrogen and helium.",
+      "latency_ms": 55622.11,
+      "peak_memory_mb": 437.7,
+      "scores": {
+        "accuracy": "correct",
+        "hallucination": false,
+        "grounding": "n/a",
+        "exact_match": true,
+        "refusal": false,
+        "manual_score": "correct"
+      }
+    },
+    {
+      "id": "Q2",
+      "condition": "A",
+      "question": "What is the surface temperature range on Mercury?",
+      "reference_answer": "280 to 430 degrees Celsius on its sunlit side",
+      "model_answer": "The surface temperature range on Mercury is between -170 \u00b0C and 400 \u00b0C.",
+      "latency_ms": 14420.0,
+      "peak_memory_mb": 387.98,
+      "scores": {
+        "accuracy": "review_needed",
+        "hallucination": true,
+        "grounding": "n/a",
+        "exact_match": false,
+        "refusal": false,
+        "manual_score": "wrong"
+      }
+    },
+    {
+      "id": "Q3",
+      "condition": "A",
+      "question": "Which planet has a thick carbon dioxide atmosphere that keeps its surface temperature at around 700 K?",
+      "reference_answer": "Venus",
+      "model_answer": "The planet with a thick carbon dioxide atmosphere that keeps its surface temperature at around 700 K is Venus.",
+      "latency_ms": 16175.2,
+      "peak_memory_mb": 387.98,
+      "scores": {
+        "accuracy": "correct",
+        "hallucination": false,
+        "grounding": "n/a",
+        "exact_match": true,
+        "refusal": false,
+        "manual_score": "correct"
+      }
+    },
+    {
+      "id": "Q4",
+      "condition": "A",
+      "question": "How old is the solar system?",
+      "reference_answer": "Approximately 4.5 billion years old",
+      "model_answer": "The Solar System is estimated to be around 4.5 billion years old. This age is based on various scientific measurements and observations, including the relative ages of planets and stars, the composition of the Sun and planets, and the presence of organic molecules in space.",
+      "latency_ms": 28267.2,
+      "peak_memory_mb": 387.98,
+      "scores": {
+        "accuracy": "review_needed",
+        "hallucination": false,
+        "grounding": "n/a",
+        "exact_match": false,
+        "refusal": false,
+        "manual_score": "correct"
+      }
+    },
+    {
+      "id": "Q5",
+      "condition": "A",
+      "question": "What is the name of Jupiter's moon that may have an ocean under its frozen ice?",
+      "reference_answer": "Europa",
+      "model_answer": "The name of Jupiter's moon that may have an ocean under its frozen ice is Europa. It is a moon that is larger than Earth, and it is the most volcanically active body in the Solar System. Europa is also the only moon known to have a subsurface ocean.",
+      "latency_ms": 31076.8,
+      "peak_memory_mb": 387.98,
+      "scores": {
+        "accuracy": "correct",
+        "hallucination": false,
+        "grounding": "n/a",
+        "exact_match": true,
+        "refusal": false,
+        "manual_score": "correct"
+      }
+    },
+    {
+      "id": "Q6",
+      "condition": "A",
+      "question": "Why are Jupiter and Saturn sometimes misleadingly called gas planets?",
+      "reference_answer": "Because the gas in their interiors is compressed by gravity until the hydrogen becomes a liquid, meaning the bulk of both planets consists of compressed liquefied hydrogen rather than gas",
+      "model_answer": "Jupiter and Saturn are not gas planets. They are gas giants, which are planets that are much larger than the Sun and have a large amount of hydrogen and helium in their atmosphere.",
+      "latency_ms": 21155.57,
+      "peak_memory_mb": 387.99,
+      "scores": {
+        "accuracy": "review_needed",
+        "hallucination": true,
+        "grounding": "n/a",
+        "exact_match": false,
+        "refusal": false,
+        "manual_score": "wrong"
+      }
+    },
+    {
+      "id": "Q7",
+      "condition": "A",
+      "question": "Why does Venus have higher surface temperatures than Mercury despite being farther from the Sun?",
+      "reference_answer": "Because Venus has a thick atmosphere of carbon dioxide that acts as insulation, trapping heat at the surface through the greenhouse effect, whereas Mercury has no atmosphere to retain heat",
+      "model_answer": "The premise of the question is incorrect. The surface temperature of Venus is significantly higher than that of Mercury due to its higher atmospheric pressure and the presence of dense sulfuric acid clouds.",
+      "latency_ms": 21309.0,
+      "peak_memory_mb": 387.99,
+      "scores": {
+        "accuracy": "review_needed",
+        "hallucination": true,
+        "grounding": "n/a",
+        "exact_match": false,
+        "refusal": false,
+        "manual_score": "wrong"
+      }
+    },
+    {
+      "id": "Q8",
+      "condition": "A",
+      "question": "Why is Earth the only planet in the solar system that can support life as we know it?",
+      "reference_answer": "Because Earth is the only planet where surface temperatures generally lie between the freezing and boiling points of water, making liquid water possible",
+      "model_answer": "The premise of the question is incorrect. The ability of a planet to support life is not determined by its location within the solar system.",
+      "latency_ms": 17551.34,
+      "peak_memory_mb": 388.0,
+      "scores": {
+        "accuracy": "review_needed",
+        "hallucination": true,
+        "grounding": "n/a",
+        "exact_match": false,
+        "refusal": false,
+        "manual_score": "wrong"
+      }
+    },
+    {
+      "id": "Q9",
+      "condition": "A",
+      "question": "Why do asteroids and comets help scientists understand the early solar system?",
+      "reference_answer": "Because most asteroids and comets retain their original composition and were never heated to the melting point, making them relatively unmodified material from the time of the solar system's formation",
+      "model_answer": "Asteroids and comets play a crucial role in helping scientists understand the early solar system for several reasons:\n\n**1. Age and History:**\n- Asteroids and comets are remnants from the protoplanetary disk that formed the solar system. By studying their composition and size, scientists can reconstruct the conditions and processes that existed during the early solar system's formation.\n\n**2. Composition and Structure:**\n- Scientists analyze the composition of asteroids and comets to understand the building blocks of the solar system. They can determine the presence of rock, ice, and organic molecules, providing insights into the chemical and physical properties of early celestial bodies.\n\n**3. Origin of Water and Life:**\n- Comets and asteroids are considered potential sources of water and organic molecules, which are essential for life as we know it. By studying their composition and interactions with other celestial bodies, scientists can shed light on the conditions necessary for life's origin and evolution.\n\n**4. Formation of Planets:**\n- Asteroids and comets play a vital role in the formation of planets. Their collisions and interactions with other bodies can break up larger chunks of material, forming the building blocks of planets.\n\n**5. Clues to Early Life:**\n- Asteroids and comets can provide clues about the conditions and environments of early life on Earth and other planets. By studying their composition and physical properties, scientists can gain insights into the chemical and biological processes that occurred during the early stages of life.\n\n**6. Scientific Discoveries:**\n- Numerous scientific discoveries have been made through the study of asteroids and comets, including the detection of primitive organic molecules, the identification of rare metals and minerals, and the discovery of dwarf planets and other celestial bodies.\n\n**7. Historical Context:**\n- Studying asteroids and comets helps scientists understand the history of the solar system and the evolution of celestial bodies over billions of years. By comparing their properties to known objects, scientists can reconstruct past orbital and physical conditions.\n\n**8. Technological Applications:**\n- Understanding the properties and behavior of asteroids and comets has significant technological applications, including the development of spacecraft, probes, and telescopes for space exploration.",
+      "latency_ms": 210723.26,
+      "peak_memory_mb": 388.0,
+      "scores": {
+        "accuracy": "review_needed",
+        "hallucination": false,
+        "grounding": "n/a",
+        "exact_match": false,
+        "refusal": false,
+        "manual_score": "partial"
+      }
+    },
+    {
+      "id": "Q10",
+      "condition": "A",
+      "question": "Why does a planet's distance from the Sun affect its surface temperature?",
+      "reference_answer": "Because planets are heated by radiant energy from the Sun, which gets weaker with the square of the distance, meaning the farther a planet is from the Sun the less energy it receives and the cooler its surface",
+      "model_answer": "Sure, here's why a planet's distance from the Sun affects its surface temperature:\n\n**1. Temperature Gradient:**\n- The Sun's heat radiates outward in all directions, including towards the planets.\n- The distance a planet is from the Sun determines how much heat it receives.\n- Planets closer to the Sun receive more heat, resulting in higher temperatures.\n- Conversely, planets farther from the Sun receive less heat, resulting in lower temperatures.\n\n**2. Radiation Balance:**\n- The Sun's energy is primarily emitted in the form of visible light.\n- When a planet is closer to the Sun, the Sun's light has a longer path to reach the planet's surface.\n- This means that more of the Sun's energy is scattered away before it reaches the surface, reducing the amount of heat absorbed.\n- As a result, the planet's surface temperature is lower.\n\n**3. Atmospheric Composition:**\n- The composition of a planet's atmosphere plays a significant role in its temperature.\n- Gases like carbon dioxide (CO2) and methane (CH4) absorb and re-emit infrared radiation, which can affect the planet's temperature.\n- Planets with thick atmospheres tend to have higher temperatures due to more efficient heat retention.\n\n**4. Distance from the Galactic Center:**\n- The Milky Way galaxy is vast, and planets located at different distances from the Galactic Center experience varying temperatures.\n- Planets closer to the Galactic Center tend to have higher temperatures due to the intense heat generated by the Sun's core.\n\n**5. Distance from the Sun's Magnetic Field:**\n- A planet's magnetic field plays a crucial role in regulating its temperature.\n- Planets with strong magnetic fields tend to have more stable temperatures due to the magnetic field's ability to deflect and retain heat.\n\n**6. Surface Features:**\n- The presence of mountains, oceans, and other surface features can influence a planet's temperature.\n- Volcanism, for example, can create localized hot spots that can significantly raise the surface temperature.\n\n**7. Historical Events:**\n- Certain historical events, such as the Earth's impact with a comet or asteroid, can have a lasting impact on a planet's temperature.",
+      "latency_ms": 227485.99,
+      "peak_memory_mb": 388.0,
+      "scores": {
+        "accuracy": "review_needed",
+        "hallucination": false,
+        "grounding": "n/a",
+        "exact_match": false,
+        "refusal": false,
+        "manual_score": "partial"
+      }
+    },
+    {
+      "id": "Q16",
+      "condition": "A",
+      "question": "What was the Latin term for the government's official distribution of grain to the Roman populace?",
+      "reference_answer": "The annona",
+      "model_answer": "The Latin term for the government's official distribution of grain to the Roman populace was **distributio**. \n\nDistributio was a public distribution of food or other goods to the people, typically by the state or a governing body.",
+      "latency_ms": 26932.93,
+      "peak_memory_mb": 388.0,
+      "scores": {
+        "accuracy": "review_needed",
+        "hallucination": true,
+        "grounding": "n/a",
+        "exact_match": false,
+        "refusal": false,
+        "manual_score": "wrong"
+      }
+    },
+    {
+      "id": "Q17",
+      "condition": "A",
+      "question": "What were large agricultural estates in the Roman countryside known as?",
+      "reference_answer": "Latifundia",
+      "model_answer": "Large agricultural estates in the Roman countryside were known as **domus** or **villae**. These estates were typically owned by wealthy landowners and were responsible for the production and distribution of food for the Roman people.",
+      "latency_ms": 23486.03,
+      "peak_memory_mb": 388.0,
+      "scores": {
+        "accuracy": "review_needed",
+        "hallucination": true,
+        "grounding": "n/a",
+        "exact_match": false,
+        "refusal": false,
+        "manual_score": "wrong"
+      }
+    },
+    {
+      "id": "Q18",
+      "condition": "A",
+      "question": "What was the dining room in a Roman home called?",
+      "reference_answer": "The triclinium",
+      "model_answer": "The dining room in a Roman home was called the \"cubiculum.\" It was a large room that was used for dining, eating, and entertaining guests. The cubiculum was typically located in the center of the house and was often decorated with statues and paintings.",
+      "latency_ms": 27870.7,
+      "peak_memory_mb": 388.0,
+      "scores": {
+        "accuracy": "review_needed",
+        "hallucination": true,
+        "grounding": "n/a",
+        "exact_match": false,
+        "refusal": false,
+        "manual_score": "wrong"
+      }
+    },
+    {
+      "id": "Q19",
+      "condition": "A",
+      "question": "What was the formal process by which deceased emperors were made gods called?",
+      "reference_answer": "Apotheosis",
+      "model_answer": "The formal process by which deceased emperors were made gods was not documented in any historical source.",
+      "latency_ms": 12394.25,
+      "peak_memory_mb": 388.0,
+      "scores": {
+        "accuracy": "review_needed",
+        "hallucination": true,
+        "grounding": "n/a",
+        "exact_match": false,
+        "refusal": false,
+        "manual_score": "wrong"
+      }
+    },
+    {
+      "id": "Q20",
+      "condition": "A",
+      "question": "What were the large storage vessels used to ship wine and olive oil across the Roman Empire called?",
+      "reference_answer": "Amphorae",
+      "model_answer": "The large storage vessels used to ship wine and olive oil across the Roman Empire were called **quadri** and **conices**. These vessels were made of wood and were used to transport wine and olive oil from the vineyards in the south to the cities and towns in the north.",
+      "latency_ms": 30997.7,
+      "peak_memory_mb": 388.0,
+      "scores": {
+        "accuracy": "review_needed",
+        "hallucination": true,
+        "grounding": "n/a",
+        "exact_match": false,
+        "refusal": false,
+        "manual_score": "wrong"
+      }
+    },
+    {
+      "id": "Q21",
+      "condition": "A",
+      "question": "Why was the layout of a wealthy Roman home designed to impress visitors?",
+      "reference_answer": "Because the floor plan emphasised the power relationship between a patron and his clients, as well as the authority and prestige of the paterfamilias, with fountains, gardens, and lavish features positioned so guests could see them upon arrival",
+      "model_answer": "The layout of a wealthy Roman home was designed to provide a welcoming and comfortable environment for guests. The arrangement of rooms and spaces was carefully planned to create a sense of hierarchy and create a focal point for the guests. The layout was also designed to facilitate social interaction and conversation between guests.",
+      "latency_ms": 32450.29,
+      "peak_memory_mb": 388.0,
+      "scores": {
+        "accuracy": "review_needed",
+        "hallucination": false,
+        "grounding": "n/a",
+        "exact_match": false,
+        "refusal": false,
+        "manual_score": "partial"
+      }
+    },
+    {
+      "id": "Q22",
+      "condition": "A",
+      "question": "Why was the annona both an economic and a political tool for Roman emperors?",
+      "reference_answer": "Because while it kept the populace fed, it also allowed emperors to associate themselves with generosity and build public support, meaning the distribution of grain was tied to the personality and image of the emperor",
+      "model_answer": "The Annona was a political and economic tool for Roman emperors because it allowed them to exert control over the entire empire. The Annona was a law that was issued by the emperor and was used to govern the entire empire. It was a way for the emperor to ensure that the empire was run fairly and efficiently. The Annona also allowed the emperor to redistribute wealth and resources throughout the empire.",
+      "latency_ms": 41984.92,
+      "peak_memory_mb": 387.95,
+      "scores": {
+        "accuracy": "review_needed",
+        "hallucination": false,
+        "grounding": "n/a",
+        "exact_match": false,
+        "refusal": false,
+        "manual_score": "partial"
+      }
+    },
+    {
+      "id": "Q23",
+      "condition": "A",
+      "question": "Why did the Roman Empire rely so heavily on Egypt for its grain supply?",
+      "reference_answer": "Because Egypt functioned as the empire's breadbasket, producing grain on a large scale, which freed Italian farmers to focus on higher-priced agricultural products like wine and olive oil",
+      "model_answer": "The premise of the question is incorrect. The Roman Empire did not rely heavily on Egypt for its grain supply.",
+      "latency_ms": 14818.77,
+      "peak_memory_mb": 387.96,
+      "scores": {
+        "accuracy": "review_needed",
+        "hallucination": true,
+        "grounding": "n/a",
+        "exact_match": false,
+        "refusal": false,
+        "manual_score": "wrong"
+      }
+    },
+    {
+      "id": "Q24",
+      "condition": "A",
+      "question": "Why was the imperial cult significant in Roman religious and political life?",
+      "reference_answer": "Because it connected religious practice with political loyalty by deifying deceased emperors, making worship of the emperor part of public life and allowing priesthoods attached to the cult to advance men's public careers",
+      "model_answer": "The imperial cult was significant in Roman religious and political life for several reasons:\n\n**Religious Significance:**\n\n* The imperial cult was the most important religious institution in the Roman Empire. It was responsible for maintaining the emperor's divinity and ensuring his continued rule.\n* The emperor was considered the supreme deity, and the cult was designed to revolve around him. This religious system provided a unifying force for the empire and allowed the emperor to maintain his authority.\n* The cult was a complex and multifaceted system that included a variety of rituals, sacrifices, and ceremonies. These practices were designed to appease the gods and ensure the emperor's success in battle, prosperity, and good harvests.\n\n**Political Significance:**\n\n* The imperial cult played a crucial role in legitimizing the emperor's rule. The emperor was seen as divinely chosen by the gods, and the cult served as a reminder of his divine right to rule.\n* The cult was used to legitimize the emperor's decisions and actions. The emperor was required to swear an oath on the sacred altar of the Capitoline Hill, promising to uphold the laws of the gods and protect the empire.\n* The cult was a powerful symbol of the emperor's authority and legitimacy. The emperor's victories were celebrated with elaborate festivals and sacrifices, which were financed by the cult.\n\n**Cultural Significance:**\n\n* The imperial cult was a central part of Roman culture and society. The cult was reflected in art, literature, and music, and it played a significant role in shaping Roman society.\n* The cult was a source of inspiration for artists, poets, and musicians. These works celebrated the emperor's virtues and the power of the gods.\n* The imperial cult was a symbol of Roman power and prestige. The cult was a magnet for people from all walks of life, and it played a significant role in maintaining Roman social order.\n\nOverall, the imperial cult was a significant and multifaceted institution in Roman religious and political life. The cult played a crucial role in legitimizing the emperor's rule, maintaining the divine order of the empire, and shaping Roman culture and society.",
+      "latency_ms": 204524.57,
+      "peak_memory_mb": 387.96,
+      "scores": {
+        "accuracy": "review_needed",
+        "hallucination": false,
+        "grounding": "n/a",
+        "exact_match": false,
+        "refusal": false,
+        "manual_score": "partial"
+      }
+    },
+    {
+      "id": "Q25",
+      "condition": "A",
+      "question": "Why were the navicularii compelled by the Roman government to join collegia?",
+      "reference_answer": "So they could be easily supervised, and in exchange for signing contracts to supply grain they received benefits including exemption from other public service",
+      "model_answer": "The premise of the question is incorrect. The navicularii were not compelled by the Roman government to join collegia.",
+      "latency_ms": 15570.09,
+      "peak_memory_mb": 387.96,
+      "scores": {
+        "accuracy": "review_needed",
+        "hallucination": true,
+        "grounding": "n/a",
+        "exact_match": false,
+        "refusal": false,
+        "manual_score": "wrong"
+      }
+    },
+    {
+      "id": "Q1",
+      "condition": "B",
+      "question": "What are the two main chemical elements that make up Jupiter and Saturn?",
+      "reference_answer": "Hydrogen and helium",
+      "model_answer": "According to the context, the two main chemical elements that make up Jupiter and Saturn are hydrogen and helium.",
+      "latency_ms": 67309.08,
+      "peak_memory_mb": 495.98,
+      "retrieved_chunks": [
+        "ar System \nwhich elements are present in the Sun and the planets. The Sun has the same hydrogen-dominated \ncomposition as Jupiter and Saturn, and therefore appears to have been formed from the same reservoir of \nmaterial. In comparison, the terrestrial planets and our Moon are relatively deficient in the light gases and the \nvarious ices that form from the common elements oxygen, carbon, and nitrogen. Instead, on Earth and its \nneighbors, we see mostly the rarer heavy elements such as iron and s",
+        "med under different conditions. Certainly their compositions are \ndominated by different elements. Let us look at each type in more detail. \nThe Giant Planets \nThe two largest planets, Jupiter and Saturn, have nearly the same chemical makeup as the Sun; they are \ncomposed primarily of the two elements hydrogen and helium, with 75% of their mass being hydrogen and \n25% helium. On Earth, both hydrogen and helium are gases, so Jupiter and Saturn are sometimes called gas \nplanets. But, this name is ",
+        " sometimes called gas \nplanets. But, this name is misleading. Jupiter and Saturn are so large that the gas is compressed in their \ninterior until the hydrogen becomes a liquid. Because the bulk of both planets consists of compressed, \nliquefied hydrogen, we should really call them liquid planets. \nUnder the force of gravity, the heavier elements sink toward the inner parts of a liquid or gaseous planet. Both \nJupiter and Saturn, therefore, have cores composed of heavier rock, metal, and ice, but"
+      ],
+      "retrieved_sources": [
+        "astronomy.pdf",
+        "astronomy.pdf",
+        "astronomy.pdf"
+      ],
+      "scores": {
+        "accuracy": "correct",
+        "hallucination": false,
+        "grounding": "grounded",
+        "exact_match": true,
+        "refusal": false,
+        "manual_score": "correct"
+      }
+    },
+    {
+      "id": "Q2",
+      "condition": "B",
+      "question": "What is the surface temperature range on Mercury?",
+      "reference_answer": "280 to 430 degrees Celsius on its sunlit side",
+      "model_answer": "The surface temperature range on Mercury ranges from 280-430 \u00b0C.",
+      "latency_ms": 73436.04,
+      "peak_memory_mb": 498.54,
+      "retrieved_chunks": [
+        ", composed primarily of rock and metal. All of them have solid \nsurfaces that bear the records of their geological history in the forms of craters, mountains, and volcanoes \n(Figure 7.4). \nAccess for free at openstax.org\n7.1+ Overview of Our Planetary System 229 \nFigure 7.4 Surface of Mercury. The pockmarked face of the terrestrial world of Mercury is more typical of the inner planets than the \nwatery surface of Earth. This black-and-white image, taken with the Mariner 10 spacecraft, shows a reg",
+        "utdoor radiant heater diminishes as you walk away from it; the same effect \napplies to the Sun. Mercury, the closest planet to the Sun, has a blistering surface temperature that ranges \nfrom 280-430 \u00b0C on its sunlit side, whereas the surface temperature on Pluto is only about -220 \u00b0C, colder than \nliquid air. \nMathematically, the temperatures decrease approximately in proportion to the square root of the distance \nfrom the Sun. Pluto is about 30 AU at its closest to the Sun (or 100 times the dis",
+        "AU at its closest to the Sun (or 100 times the distance of Mercury) and about 49 \nAU at its farthest from the Sun. Thus, Pluto\u2019s temperature is less than that of Mercury by the square root of \n100, or a factor of 10: from 500 K to 50 K. \nIn addition to its distance from the Sun, the surface temperature of a planet can be influenced strongly by its \natmosphere. Without our atmospheric insulation (the greenhouse effect, which keeps the heat in), the oceans \nof Earth would be permanently frozen. Co"
+      ],
+      "retrieved_sources": [
+        "astronomy.pdf",
+        "astronomy.pdf",
+        "astronomy.pdf"
+      ],
+      "scores": {
+        "accuracy": "review_needed",
+        "hallucination": false,
+        "grounding": "ungrounded",
+        "exact_match": false,
+        "refusal": false,
+        "manual_score": "correct"
+      }
+    },
+    {
+      "id": "Q3",
+      "condition": "B",
+      "question": "Which planet has a thick carbon dioxide atmosphere that keeps its surface temperature at around 700 K?",
+      "reference_answer": "Venus",
+      "model_answer": "The planet with a thick carbon dioxide atmosphere that keeps its surface temperature at around 700 K is Venus.",
+      "latency_ms": 73233.68,
+      "peak_memory_mb": 499.15,
+      "retrieved_chunks": [
+        "em. There are many fascinating places, large and small, that we might like to visit, but humans could \nnot survive on any without a great deal of artificial assistance. \nA thick carbon dioxide atmosphere keeps the surface temperature on our neighbor Venus at a sizzling 700 \nK (near 900 \u00b0F). Mars, on the other hand, has temperatures generally below freezing, with air (also mostly \ncarbon dioxide) so thin that it resembles that found at an altitude of 30 kilometers (100,000 feet) in Earth's \natmos",
+        "AU at its closest to the Sun (or 100 times the distance of Mercury) and about 49 \nAU at its farthest from the Sun. Thus, Pluto\u2019s temperature is less than that of Mercury by the square root of \n100, or a factor of 10: from 500 K to 50 K. \nIn addition to its distance from the Sun, the surface temperature of a planet can be influenced strongly by its \natmosphere. Without our atmospheric insulation (the greenhouse effect, which keeps the heat in), the oceans \nof Earth would be permanently frozen. Co",
+        "e oceans \nof Earth would be permanently frozen. Conversely, if Mars once had a larger atmosphere in the past, it could \nhave supported a more temperate climate than it has today. Venus is an even more extreme example, where \nits thick atmosphere of carbon dioxide acts as insulation, reducing the escape of heat built up at the surface, \nresulting in temperatures greater than those on Mercury. Today, Earth is the only planet where surface \ntemperatures generally lie between the freezing and boilin"
+      ],
+      "retrieved_sources": [
+        "astronomy.pdf",
+        "astronomy.pdf",
+        "astronomy.pdf"
+      ],
+      "scores": {
+        "accuracy": "correct",
+        "hallucination": false,
+        "grounding": "ungrounded",
+        "exact_match": true,
+        "refusal": false,
+        "manual_score": "correct"
+      }
+    },
+    {
+      "id": "Q4",
+      "condition": "B",
+      "question": "How old is the solar system?",
+      "reference_answer": "Approximately 4.5 billion years old",
+      "model_answer": "The solar system is estimated to be 4.5 billion years old. This is based on the context information that states that the Sun and Earth formed together about 4.5 billion years ago.",
+      "latency_ms": 74404.92,
+      "peak_memory_mb": 500.0,
+      "retrieved_chunks": [
+        "ated the age of the Moon and Earth to be roughly \n4.5 billion years. \n7.4 Origin of the Solar System \nRegularities among the planets have led astronomers to hypothesize that the Sun and the planets formed \ntogether in a giant, spinning cloud of gas and dust called the solar nebula. Astronomical observations show \ntantalizingly similar circumstellar disks around other stars. Within the solar nebula, material first coalesced \ninto planetesimals; many of these gathered together to make the planets ",
+        "in space \nThe solar syslem1 consists of the Sun and many smaller objects: the planets, their moons and rings, and such \n\u201cdebris\u201d as asteroids, comets, and dust. Decades of observation and spacecraft exploration have revealed that \nmost of these objects formed together with the Sun about 4.5 billion years ago. They represent clumps of \nmaterial that condensed from an enormous cloud of gas and dust. The central part of this cloud became the \nSun, and a small fraction of the material in the outer p",
+        "orlds: An Introduction to the Solar System \nOn geologically active objects (including Earth), vast outpourings of molten rock or the erosive effects of water \nand ice, which we call planet weathering, have erased evidence of earlier epochs and present us with only a \nrelatively young surface for investigation. \nCounting the Craters \nOne way to estimate the age of a surface is by counting the number of impact craters. This technique works \nbecause the rate at which impacts have occurred in the so"
+      ],
+      "retrieved_sources": [
+        "astronomy.pdf",
+        "astronomy.pdf",
+        "astronomy.pdf"
+      ],
+      "scores": {
+        "accuracy": "review_needed",
+        "hallucination": false,
+        "grounding": "grounded",
+        "exact_match": false,
+        "refusal": false,
+        "manual_score": "correct"
+      }
+    },
+    {
+      "id": "Q5",
+      "condition": "B",
+      "question": "What is the name of Jupiter's moon that may have an ocean under its frozen ice?",
+      "reference_answer": "Europa",
+      "model_answer": "The name of Jupiter's moon that may have an ocean under its frozen ice is Ganymede. \n\nThe context states that Ganymede is composed half of frozen water, and half of rocks and metals.",
+      "latency_ms": 84289.64,
+      "peak_memory_mb": 500.82,
+      "retrieved_chunks": [
+        "ositions similar to the cores of the giant planets around which they orbit. The \nthree largest moons\u2014Ganymede and Callisto in the jovian system, and Titan in the saturnian system\u2014are \ncomposed half of frozen water, and half of rocks and metals. Most of these moons differentiated during \nformation, and today they have cores of rock and metal, with upper layers and crusts of very cold and\u2014thus \nvery hard\u2014ice (Figure 7.12). \nAccess for free at openstax.org\n7.2+ Composition and Structure of Planets ",
+        " taken with the Mariner 10 spacecraft, shows a region more than 400 kilometers \nwide. (credit: modification of work by NASA/John Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington) \nThe next four planets (Jupiter through Neptune) are much larger and are composed primarily of lighter ices, \nliquids, and gases. We call these four the jovian planets (after \u201cJove,\u201d another name for Jupiter in mythology) or \ngiant planets\u2014a name they richly deserve (Figure 7.5). About 1,",
+        "rting from Jupiter and moving outward in distance. \nIo \nEuropa \nGanymede \nCallisto \nThis system has often been described as a mini solar system. Why might this be so? If jupiter were to \nrepresent the Sun and the Galilean moons represented planets, which moons could be considered more \nterrestrial in nature and which ones more like gas/ice giants? Why? (Hint: Use the values in your table to \nhelp explain your categorization.) \nFiguring for Yourself \n31. Calculate the density of Jupiter. Show you"
+      ],
+      "retrieved_sources": [
+        "astronomy.pdf",
+        "astronomy.pdf",
+        "astronomy.pdf"
+      ],
+      "scores": {
+        "accuracy": "review_needed",
+        "hallucination": true,
+        "grounding": "ungrounded",
+        "exact_match": false,
+        "refusal": false,
+        "manual_score": "wrong"
+      }
+    },
+    {
+      "id": "Q6",
+      "condition": "B",
+      "question": "Why are Jupiter and Saturn sometimes misleadingly called gas planets?",
+      "reference_answer": "Because the gas in their interiors is compressed by gravity until the hydrogen becomes a liquid, meaning the bulk of both planets consists of compressed liquefied hydrogen rather than gas",
+      "model_answer": "Jupiter and Saturn are sometimes misleadingly called gas planets because they are composed primarily of hydrogen and helium, which are gases at room temperature.",
+      "latency_ms": 70287.54,
+      "peak_memory_mb": 499.89,
+      "retrieved_chunks": [
+        " sometimes called gas \nplanets. But, this name is misleading. Jupiter and Saturn are so large that the gas is compressed in their \ninterior until the hydrogen becomes a liquid. Because the bulk of both planets consists of compressed, \nliquefied hydrogen, we should really call them liquid planets. \nUnder the force of gravity, the heavier elements sink toward the inner parts of a liquid or gaseous planet. Both \nJupiter and Saturn, therefore, have cores composed of heavier rock, metal, and ice, but",
+        "med under different conditions. Certainly their compositions are \ndominated by different elements. Let us look at each type in more detail. \nThe Giant Planets \nThe two largest planets, Jupiter and Saturn, have nearly the same chemical makeup as the Sun; they are \ncomposed primarily of the two elements hydrogen and helium, with 75% of their mass being hydrogen and \n25% helium. On Earth, both hydrogen and helium are gases, so Jupiter and Saturn are sometimes called gas \nplanets. But, this name is ",
+        "e giant planet's moons. (credit: modification of work by NASA/JPL/University of Arizona) \n237\n238 7+ Other Worlds: An Introduction to the Solar System \nUranus and Neptune are much smaller than Jupiter and Saturn, but each also has a core of rock, metal, and \nice. Uranus and Neptune were less efficient at attracting hydrogen and helium gas, so they have much smaller \natmospheres in proportion to their cores. \nChemically, each giant planet is dominated by hydrogen and its many compounds. Nearly al"
+      ],
+      "retrieved_sources": [
+        "astronomy.pdf",
+        "astronomy.pdf",
+        "astronomy.pdf"
+      ],
+      "scores": {
+        "accuracy": "review_needed",
+        "hallucination": false,
+        "grounding": "ungrounded",
+        "exact_match": false,
+        "refusal": false,
+        "manual_score": "partial"
+      }
+    },
+    {
+      "id": "Q7",
+      "condition": "B",
+      "question": "Why does Venus have higher surface temperatures than Mercury despite being farther from the Sun?",
+      "reference_answer": "Because Venus has a thick atmosphere of carbon dioxide that acts as insulation, trapping heat at the surface through the greenhouse effect, whereas Mercury has no atmosphere to retain heat",
+      "model_answer": "The context does not provide an answer to this question, so I cannot answer this question from the provided context.",
+      "latency_ms": 75962.85,
+      "peak_memory_mb": 501.28,
+      "retrieved_chunks": [
+        "utdoor radiant heater diminishes as you walk away from it; the same effect \napplies to the Sun. Mercury, the closest planet to the Sun, has a blistering surface temperature that ranges \nfrom 280-430 \u00b0C on its sunlit side, whereas the surface temperature on Pluto is only about -220 \u00b0C, colder than \nliquid air. \nMathematically, the temperatures decrease approximately in proportion to the square root of the distance \nfrom the Sun. Pluto is about 30 AU at its closest to the Sun (or 100 times the dis",
+        "AU at its closest to the Sun (or 100 times the distance of Mercury) and about 49 \nAU at its farthest from the Sun. Thus, Pluto\u2019s temperature is less than that of Mercury by the square root of \n100, or a factor of 10: from 500 K to 50 K. \nIn addition to its distance from the Sun, the surface temperature of a planet can be influenced strongly by its \natmosphere. Without our atmospheric insulation (the greenhouse effect, which keeps the heat in), the oceans \nof Earth would be permanently frozen. Co",
+        "em. There are many fascinating places, large and small, that we might like to visit, but humans could \nnot survive on any without a great deal of artificial assistance. \nA thick carbon dioxide atmosphere keeps the surface temperature on our neighbor Venus at a sizzling 700 \nK (near 900 \u00b0F). Mars, on the other hand, has temperatures generally below freezing, with air (also mostly \ncarbon dioxide) so thin that it resembles that found at an altitude of 30 kilometers (100,000 feet) in Earth's \natmos"
+      ],
+      "retrieved_sources": [
+        "astronomy.pdf",
+        "astronomy.pdf",
+        "astronomy.pdf"
+      ],
+      "scores": {
+        "accuracy": "refused",
+        "hallucination": false,
+        "grounding": "ungrounded",
+        "exact_match": false,
+        "refusal": true,
+        "manual_score": "wrong"
+      }
+    },
+    {
+      "id": "Q8",
+      "condition": "B",
+      "question": "Why is Earth the only planet in the solar system that can support life as we know it?",
+      "reference_answer": "Because Earth is the only planet where surface temperatures generally lie between the freezing and boiling points of water, making liquid water possible",
+      "model_answer": "The passage does not specify why Earth is the only planet in the solar system that can support life as we know it, so I cannot answer this question from the provided context.",
+      "latency_ms": 76314.03,
+      "peak_memory_mb": 501.02,
+      "retrieved_chunks": [
+        "other \nplaces in our solar system that might be able to support some kind of life. \nFigure 7.2 Astronauts on the Moon. The lunar lander and surface rover from the Apollo 15 mission are seen in this view of the one \nplace beyond Earth that has been explored directly by humans. (credit: modification of work by David R. Scott, NASA) \ngeneric term for a group of planets and other bodies \u00a2 because our Sun is sometimes called Sol. Strictly speaking planetary systems. \nling a star is planetary system. ",
+        "t the formation \nof the entire system. As we begin our exploration of the planets, we want to introduce our modern picture of \nhow the solar system formed. \nThe recent discovery of thousands of planets in orbit around other stars has shown astronomers that many \nexoplanetary systems can be quite different from our own solar system. For example, it is common for these \nsystems to include planets intermediate in size between our terrestrial and giant planets. These are often \ncalled superearths. S",
+        "ures generally lie between the freezing and boiling points of water. As far as we know, Earth is the \nonly planet to support life.\n240 7+ Other Worlds: An Introduction to the Solar System \nASTRONOMY BASICS \nThere's No Place Like Home \nIn the classic film The Wizard of Oz, Dorothy, the heroine, concludes after her many adventures in \u201calien\u201d \nenvironments that \u201cthere\u2019s no place like home.\u201d The same can be said of the other worlds in our solar \nsystem. There are many fascinating places, large and s"
+      ],
+      "retrieved_sources": [
+        "astronomy.pdf",
+        "astronomy.pdf",
+        "astronomy.pdf"
+      ],
+      "scores": {
+        "accuracy": "refused",
+        "hallucination": false,
+        "grounding": "ungrounded",
+        "exact_match": false,
+        "refusal": true,
+        "manual_score": "wrong"
+      }
+    },
+    {
+      "id": "Q9",
+      "condition": "B",
+      "question": "Why do asteroids and comets help scientists understand the early solar system?",
+      "reference_answer": "Because most asteroids and comets retain their original composition and were never heated to the melting point, making them relatively unmodified material from the time of the solar system's formation",
+      "model_answer": "The passage does not provide information about asteroids and comets helping scientists understand the early solar system, so I cannot answer this question from the provided context.",
+      "latency_ms": 68641.2,
+      "peak_memory_mb": 501.74,
+      "retrieved_chunks": [
+        "nd a small fraction of the material in the outer parts eventually formed the other objects. \nDuring the past 50 years, we have learned more about the solar system than anyone imagined before the \nspace age. In addition to gathering information with powerful new telescopes, we have sent spacecraft directly \nto many members of the planetary system. (Planetary astronomy is the only branch of our science in which we \ncan, at least vicariously, travel to the objects we want to study.) With evocative ",
+        "mation of the solar system \nMuch of astronomy is motivated by a desire to understand the origin of things: to find at least partial answers \nto age-old questions of where the universe, the Sun, Earth, and we ourselves came from. Each planet and \nmoon is a fascinating place that may stimulate our imagination as we try to picture what it would be like to \nvisit. Taken together, the members of the solar system preserve patterns that can tell us about the formation \nof the entire system. As we begin",
+        " to the objects we want to study.) With evocative names such as Voyager, \nPioneer, Curiosity, and Pathfinder, our robot explorers have flown past, orbited, or landed on every planet, \nreturning images and data that have dazzled both astronomers and the public. In the process, we have also \ninvestigated two dwarf planets, hundreds of fascinating moons, four ring systems, a dozen asteroids, and \nseveral comets (smaller members of our solar system that we will discuss later). \nOur probes have penet"
+      ],
+      "retrieved_sources": [
+        "astronomy.pdf",
+        "astronomy.pdf",
+        "astronomy.pdf"
+      ],
+      "scores": {
+        "accuracy": "refused",
+        "hallucination": false,
+        "grounding": "ungrounded",
+        "exact_match": false,
+        "refusal": true,
+        "manual_score": "wrong"
+      }
+    },
+    {
+      "id": "Q10",
+      "condition": "B",
+      "question": "Why does a planet's distance from the Sun affect its surface temperature?",
+      "reference_answer": "Because planets are heated by radiant energy from the Sun, which gets weaker with the square of the distance, meaning the farther a planet is from the Sun the less energy it receives and the cooler its surface",
+      "model_answer": "According to the context, a planet's distance from the Sun affects its surface temperature because the radiant energy of the Sun gets weaker with the square of the distance.",
+      "latency_ms": 79018.25,
+      "peak_memory_mb": 501.81,
+      "retrieved_chunks": [
+        "utdoor radiant heater diminishes as you walk away from it; the same effect \napplies to the Sun. Mercury, the closest planet to the Sun, has a blistering surface temperature that ranges \nfrom 280-430 \u00b0C on its sunlit side, whereas the surface temperature on Pluto is only about -220 \u00b0C, colder than \nliquid air. \nMathematically, the temperatures decrease approximately in proportion to the square root of the distance \nfrom the Sun. Pluto is about 30 AU at its closest to the Sun (or 100 times the dis",
+        "AU at its closest to the Sun (or 100 times the distance of Mercury) and about 49 \nAU at its farthest from the Sun. Thus, Pluto\u2019s temperature is less than that of Mercury by the square root of \n100, or a factor of 10: from 500 K to 50 K. \nIn addition to its distance from the Sun, the surface temperature of a planet can be influenced strongly by its \natmosphere. Without our atmospheric insulation (the greenhouse effect, which keeps the heat in), the oceans \nof Earth would be permanently frozen. Co",
+        "of the solar system. In a sense, they act \nas chemical fossils, helping us to learn about a time long ago whose traces have been erased on larger worlds. \nTemperatures: Going to Extremes \nGenerally speaking, the farther a planet or moon is from the Sun, the cooler its surface. The planets are heated \nby the radiant energy of the Sun, which gets weaker with the square of the distance. You know how rapidly the \nheating effect of a fireplace or an outdoor radiant heater diminishes as you walk away "
+      ],
+      "retrieved_sources": [
+        "astronomy.pdf",
+        "astronomy.pdf",
+        "astronomy.pdf"
+      ],
+      "scores": {
+        "accuracy": "review_needed",
+        "hallucination": false,
+        "grounding": "grounded",
+        "exact_match": false,
+        "refusal": false,
+        "manual_score": "correct"
+      }
+    },
+    {
+      "id": "Q11",
+      "condition": "B",
+      "question": "According to the document, what is the term used for the category of objects invented to include Pluto and similar icy objects beyond Neptune?",
+      "reference_answer": "Dwarf planet",
+      "model_answer": "According to the document, the term used for the category of objects invented to include Pluto and similar icy objects beyond Neptune is \"dwarf planet\".",
+      "latency_ms": 76545.94,
+      "peak_memory_mb": 502.5,
+      "retrieved_chunks": [
+        "ture of Planets \nconcerns Pluto, which is much smaller than the other eight major planets. The category of dwarf planet was \ninvented to include Pluto and similar icy objects beyond Neptune. But is a dwarf planet also a planet? \nLogically, it should be, but even this simple issue of grammar has been the subject of heated debate among \nboth astronomers and the general public. \n7.2 | Composition and Structure of Planets \nLearning Objectives \nBy the end of this section, you will be able to: \n> Desc",
+        "r System Exploration) \nNear the outer edge of the system lies Pluto, which was the first of the distant icy worlds to be discovered \nbeyond Neptune (Pluto was visited by a spacecraft, the NASA New Horizons mission, in 2015 [see Figure 7.6]). \nTable 7.2 summarizes some of the main facts about the planets.\n230 7+ Other Worlds: An Introduction to the Solar System \nFigure 7.6 Pluto Close-up. This intriguing image from the New Horizons spacecraft, taken when it flew by the dwarf planet in July \n2015,",
+        " of the Sun, eight planets, five dwarf planets, more than 280 known moons, \nand a host of smaller objects. The planets can be divided into two groups: the inner terrestrial planets and the \nouter giant planets. Pluto, Eris, Haumea, and Makemake do not fit into either category; as icy dwarf planets, \nthey exist in an ice realm on the fringes of the main planetary system. The giant planets are composed mostly \nof liquids and gases. Smaller members of the solar system include asteroids (including t"
+      ],
+      "retrieved_sources": [
+        "astronomy.pdf",
+        "astronomy.pdf",
+        "astronomy.pdf"
+      ],
+      "scores": {
+        "accuracy": "correct",
+        "hallucination": false,
+        "grounding": "grounded",
+        "exact_match": true,
+        "refusal": false,
+        "manual_score": "correct"
+      }
+    },
+    {
+      "id": "Q12",
+      "condition": "B",
+      "question": "According to the document, what event in 1994 provided dramatic evidence that planetary bombardment continues today?",
+      "reference_answer": "The collision of more than 20 large pieces of Comet Shoemaker-Levy 9 with Jupiter",
+      "model_answer": "According to the document, the collision of more than 20 large pieces of Comet Shoemaker-Levy 9 with Jupiter in the summer of 1994 provided dramatic evidence that planetary bombardment continues today.",
+      "latency_ms": 91479.82,
+      "peak_memory_mb": 502.95,
+      "retrieved_chunks": [
+        " from space, leaving their surfaces pockmarked by impact craters of all sizes (see Figure 7.4). We \nhave good evidence that this bombardment was far greater in the early history of the solar system, but it \ncertainly continues to this day, even if at a lower rate. The collision of more than 20 large pieces of Comet \nShoemaker-Levy 9 with Jupiter in the summer of 1994 (see Figure 7.13) is one dramatic example of this \nprocess. \nFigure 7.13 Comet Shoemaker-Levy 9. In this image of Comet Shoemaker-",
+        "e/origins-solar-system.html| \nhttps://www.pbs.org/wgbh/nova/space/origins-solar-system.html). A video from PBS that focuses on the \nevidence from meteorites, narrated by Neil deGrasse Tyson (13:02). \nRadiometric Dating: https://www.youtube.com/watch?v=cpnIxIDVmHw (https://www.youtube.com/ \nwatch?v=cpnIxIDVmHw). (A geological explanation of how we date rock layers on Earth, from the Discovery \nChannel) (5:03). \nRadlometrlc Datlng /) rningmedia.org/re i i ing/radiometric- \nBrief PBS Evolutlon seri",
+        " the rate at which impacts have occurred in the solar system has been roughly constant for several \nbillion years. Thus, in the absence of forces to eliminate craters, the number of craters is simply proportional \nto the length of time the surface has been exposed. This technique has been applied successfully to many \nsolid planets and moons (Figure 7.15). \nFigure 7.15 Our Cratered Moon. This composite image of the Moon's surface was made from many smaller images taken between \nNovember 2009 and"
+      ],
+      "retrieved_sources": [
+        "astronomy.pdf",
+        "astronomy.pdf",
+        "astronomy.pdf"
+      ],
+      "scores": {
+        "accuracy": "correct",
+        "hallucination": false,
+        "grounding": "grounded",
+        "exact_match": true,
+        "refusal": false,
+        "manual_score": "correct"
+      }
+    },
+    {
+      "id": "Q13",
+      "condition": "B",
+      "question": "According to the document, what spacecraft missions are mentioned as having landed on or orbited planets and moons in the solar system?",
+      "reference_answer": "Voyager, Pioneer, Curiosity, and Pathfinder",
+      "model_answer": "The context does not provide any information about spacecraft missions that have landed on or orbited planets and moons in the solar system, so I cannot answer this question from the provided context.",
+      "latency_ms": 81522.16,
+      "peak_memory_mb": 503.45,
+      "retrieved_chunks": [
+        " to the objects we want to study.) With evocative names such as Voyager, \nPioneer, Curiosity, and Pathfinder, our robot explorers have flown past, orbited, or landed on every planet, \nreturning images and data that have dazzled both astronomers and the public. In the process, we have also \ninvestigated two dwarf planets, hundreds of fascinating moons, four ring systems, a dozen asteroids, and \nseveral comets (smaller members of our solar system that we will discuss later). \nOur probes have penet",
+        "by one or more moons; only Mercury and Venus move through space \nalone. There are more than 420 known moons orbiting planets and dwarf planets (see Appendix G for a listing \nof the larger ones), and undoubtedly many other small ones remain undiscovered. The largest of the moons \nare as big as small planets and just as interesting. In addition to our Moon, they include the four largest \nmoons of Jupiter (called the Galilean moons, after their discoverer) and the largest moons of Saturn and \nNeptu",
+        "view. \nTalcott, R. \u201cHow the Solar System Came to Be.\u201d Astronomy (November 2012): 24. On the formation period of \nthe Sun and the planets. \nZastrow, M. \u201cBring it Back Home.\u201d Astronomy (June 2021): 10. Two-page graphic summary of all the sample \nreturn missions we have sent or planned. \nWebsites \nGazetteer of Planetary Nomenclature: http://planetarynames.wr.usgs.gov/ \n(http://planetarynames.wr.usgs.gov/). Outlines the rules for naming bodies and features in the solar system. \nPlanetary Photojourna"
+      ],
+      "retrieved_sources": [
+        "astronomy.pdf",
+        "astronomy.pdf",
+        "astronomy.pdf"
+      ],
+      "scores": {
+        "accuracy": "refused",
+        "hallucination": false,
+        "grounding": "ungrounded",
+        "exact_match": false,
+        "refusal": true,
+        "manual_score": "wrong"
+      }
+    },
+    {
+      "id": "Q14",
+      "condition": "B",
+      "question": "According to the document, what is the surface temperature on Pluto, and how does it compare to Mercury?",
+      "reference_answer": "Pluto's temperature is about -220 degrees Celsius, which is colder than liquid air, and is less than that of Mercury by a factor of 10",
+      "model_answer": "The surface temperature on Pluto is only about -220 \u00b0C, colder than liquid air. In contrast, the surface temperature on Mercury ranges from 280-430 \u00b0C on its sunlit side.",
+      "latency_ms": 88302.19,
+      "peak_memory_mb": 503.98,
+      "retrieved_chunks": [
+        "AU at its closest to the Sun (or 100 times the distance of Mercury) and about 49 \nAU at its farthest from the Sun. Thus, Pluto\u2019s temperature is less than that of Mercury by the square root of \n100, or a factor of 10: from 500 K to 50 K. \nIn addition to its distance from the Sun, the surface temperature of a planet can be influenced strongly by its \natmosphere. Without our atmospheric insulation (the greenhouse effect, which keeps the heat in), the oceans \nof Earth would be permanently frozen. Co",
+        "utdoor radiant heater diminishes as you walk away from it; the same effect \napplies to the Sun. Mercury, the closest planet to the Sun, has a blistering surface temperature that ranges \nfrom 280-430 \u00b0C on its sunlit side, whereas the surface temperature on Pluto is only about -220 \u00b0C, colder than \nliquid air. \nMathematically, the temperatures decrease approximately in proportion to the square root of the distance \nfrom the Sun. Pluto is about 30 AU at its closest to the Sun (or 100 times the dis",
+        ", composed primarily of rock and metal. All of them have solid \nsurfaces that bear the records of their geological history in the forms of craters, mountains, and volcanoes \n(Figure 7.4). \nAccess for free at openstax.org\n7.1+ Overview of Our Planetary System 229 \nFigure 7.4 Surface of Mercury. The pockmarked face of the terrestrial world of Mercury is more typical of the inner planets than the \nwatery surface of Earth. This black-and-white image, taken with the Mariner 10 spacecraft, shows a reg"
+      ],
+      "retrieved_sources": [
+        "astronomy.pdf",
+        "astronomy.pdf",
+        "astronomy.pdf"
+      ],
+      "scores": {
+        "accuracy": "review_needed",
+        "hallucination": false,
+        "grounding": "ungrounded",
+        "exact_match": false,
+        "refusal": false,
+        "manual_score": "correct"
+      }
+    },
+    {
+      "id": "Q15",
+      "condition": "B",
+      "question": "According to the document, why would the oceans of Earth be permanently frozen without its atmosphere?",
+      "reference_answer": "Because without atmospheric insulation from the greenhouse effect, Earth would not retain enough heat to keep its oceans liquid",
+      "model_answer": "According to the document, the oceans of Earth would be permanently frozen without its atmosphere because they would be permanently frozen without the greenhouse effect that keeps the heat in.",
+      "latency_ms": 73781.72,
+      "peak_memory_mb": 504.17,
+      "retrieved_chunks": [
+        "e oceans \nof Earth would be permanently frozen. Conversely, if Mars once had a larger atmosphere in the past, it could \nhave supported a more temperate climate than it has today. Venus is an even more extreme example, where \nits thick atmosphere of carbon dioxide acts as insulation, reducing the escape of heat built up at the surface, \nresulting in temperatures greater than those on Mercury. Today, Earth is the only planet where surface \ntemperatures generally lie between the freezing and boilin",
+        "aps we will find warmer havens deep inside the clouds of Jupiter or in the ocean under the frozen ice of \nits moon Europa. \nAll of this suggests that we had better take good care of Earth because it is the only site where life as we \nknow it could survive. Recent human activity may be reducing the habitability of our planet by adding \npollutants to the atmosphere, especially the potent greenhouse gas carbon dioxide. Human civilization is \nchanging our planet dramatically, and these changes are n",
+        "AU at its closest to the Sun (or 100 times the distance of Mercury) and about 49 \nAU at its farthest from the Sun. Thus, Pluto\u2019s temperature is less than that of Mercury by the square root of \n100, or a factor of 10: from 500 K to 50 K. \nIn addition to its distance from the Sun, the surface temperature of a planet can be influenced strongly by its \natmosphere. Without our atmospheric insulation (the greenhouse effect, which keeps the heat in), the oceans \nof Earth would be permanently frozen. Co"
+      ],
+      "retrieved_sources": [
+        "astronomy.pdf",
+        "astronomy.pdf",
+        "astronomy.pdf"
+      ],
+      "scores": {
+        "accuracy": "review_needed",
+        "hallucination": false,
+        "grounding": "grounded",
+        "exact_match": false,
+        "refusal": false,
+        "manual_score": "correct"
+      }
+    },
+    {
+      "id": "Q16",
+      "condition": "B",
+      "question": "What was the Latin term for the government's official distribution of grain to the Roman populace?",
+      "reference_answer": "The annona",
+      "model_answer": "The Latin term for the government's official distribution of grain to the Roman populace was the annona.",
+      "latency_ms": 67972.24,
+      "peak_memory_mb": 504.47,
+      "retrieved_chunks": [
+        ", holding a cornucopia in one hand and \ngrain ears in the other. In the background is the prow of a ship, likely a reference to the grain supply entering the city \nof Rome. (credit: \u201cVespasian Dupondius\u201d by Guy de la Bedoyere/Wikimedia Commons, Public Domain) \nTaxes \nCollecting taxes was a chief concern of the Roman government because tax revenues were a necessity for \nconducting business and funding public programs. Taxes fell into several categories, including those \ncalculated with census lis",
+        "set in the soft ground. (credit: \u201cRoman Amphora\u201d by Mrs. Elvi Adamcak/ \nSmithsonian, National Museum of Natural History, CCO) \nThe government\u2019s official distribution of grain to the populace was called the annona and was especially \nimportant to Romans. It had begun in the second century BCE but took on new importance by the reign of \nAugustus. The emperor appointed the praefectus annonae, the prefect who oversaw the distribution process, \ngoverned the ports to which grain was shipped, and addre",
+        "ed the ports to which grain was shipped, and addressed any fraud in the market. The prefect and his \nstaff also secured the grain supply from Egypt and other regions by signing contracts with various suppliers. \nThe Roman government was also generally concerned with controlling overseas trade. An elite class of \nshipowners known as the navicularii were compelled by the government to join groups known as collegia \n(corporations) so they could be easily supervised. For signing contracts to supply "
+      ],
+      "retrieved_sources": [
+        "roman_empire.pdf",
+        "roman_empire.pdf",
+        "roman_empire.pdf"
+      ],
+      "scores": {
+        "accuracy": "correct",
+        "hallucination": false,
+        "grounding": "ungrounded",
+        "exact_match": true,
+        "refusal": false,
+        "manual_score": "correct"
+      }
+    },
+    {
+      "id": "Q17",
+      "condition": "B",
+      "question": "What were large agricultural estates in the Roman countryside known as?",
+      "reference_answer": "Latifundia",
+      "model_answer": "Large estates, known as latifundia, were agricultural operations in which enslaved people worked the land for the owner\u2019s profit.",
+      "latency_ms": 70737.26,
+      "peak_memory_mb": 504.64,
+      "retrieved_chunks": [
+        "l estates. \nLarge estates, known as latifundia, were agricultural operations in which enslaved people worked the land for \nthe owner\u2019s profit. In the imperial period, these estates came to contain villa residences that functioned more \nas places of recreation and a means to display wealth. Many elements of luxury displayed in townhouses also \nappear in villas, such as gardens, fountains, and mosaics. Hadrian\u2019s villa outside Rome is an opulent example\n278 7+ Experiencing the Roman Empire \nof luxu",
+        "lore the ruins of the city of Pompeii (https:/openstax.org/l/77Pompeii) to learn more. Remarkably \npreserved after the eruption of Mount Vesuvius in 79 CE, the city is our finest source of information about daily \nlife in a Roman city. \nThe wealthiest Romans had both houses in the city and villas in the countryside. Suburban villas were located \njust outside a city\u2019s walls, and villas located in the countryside typically originated as agricultural estates. \nLarge estates, known as latifundia, we",
+        "\nonce-bustling city (which was destroyed by a volcanic eruption in 79 CE) show us the occupations, \narchitecture, and lifestyles of different social classes. In addition, though most of what we know is about \nwealthy estates, life in the countryside outside the city constituted another important part of imperial Roman \nsociety. \nDaily life was dominated by aristocratic men who enjoyed careers in politics, law, and the military. Wealthy \nRomans were part of two property-based classes: the senator"
+      ],
+      "retrieved_sources": [
+        "roman_empire.pdf",
+        "roman_empire.pdf",
+        "roman_empire.pdf"
+      ],
+      "scores": {
+        "accuracy": "correct",
+        "hallucination": false,
+        "grounding": "ungrounded",
+        "exact_match": true,
+        "refusal": false,
+        "manual_score": "correct"
+      }
+    },
+    {
+      "id": "Q18",
+      "condition": "B",
+      "question": "What was the dining room in a Roman home called?",
+      "reference_answer": "The triclinium",
+      "model_answer": "The triclinium was the dining room in a Roman home. It was the place where members of the household ate in the Roman fashion, reclining around a small table.",
+      "latency_ms": 78866.93,
+      "peak_memory_mb": 504.72,
+      "retrieved_chunks": [
+        "derground cistern for use by the family, or, if left in the pool, it helped to \nAccess for free at openstax.org\n7.1+ The Daily Life of a Roman Family 277 \nventilate other rooms in the house. The triclinium (\u201cthree couches\u201d) was the dining room, where members of the \nhousehold ate in the Roman fashion, reclining around a small table. Alae were the smaller recesses in a house \nthat stored masks or busts of a family\u2019s ancestors. \nFountains, peristyle (columned) courtyards, gardens, and other lavish",
+        "althy Roman men spent their time socializing and pursuing leisure \nactivities, such as attending public entertainment performances or visiting the bathhouse. \nBEYOND THE BOOK \nThe Plan of a Typical Roman Household \nThe most common type of Roman house was the atrium house, which could include two or more stories. Based \nmostly on evidence from Pompeii, we know that each house contained several key features. The fauces or \nvestibulum was the entryway. The atrium was the open-air reception hall whe",
+        "ty, OpenStax, under CC BY 4.0 license; \ncredit b: modification of work \u201cFresco from the villa of Publio Fannio Sinistore in Boscoreale\u201d by Metropolitan \nMuseum of Art, Rogers Fund, 1903/Wikimedia Commons, Public Domain) \n\u00ab What are the key features of an atrium house and what do they tell us about daily life in Rome? \n\u00ab How does the architecture of a typical Roman home reflect important aspects of Roman culture and society? \nLINK TO LEARNING \nExplore the ruins of the city of Pompeii (https:/open"
+      ],
+      "retrieved_sources": [
+        "roman_empire.pdf",
+        "roman_empire.pdf",
+        "roman_empire.pdf"
+      ],
+      "scores": {
+        "accuracy": "correct",
+        "hallucination": false,
+        "grounding": "ungrounded",
+        "exact_match": true,
+        "refusal": false,
+        "manual_score": "correct"
+      }
+    },
+    {
+      "id": "Q19",
+      "condition": "B",
+      "question": "What was the formal process by which deceased emperors were made gods called?",
+      "reference_answer": "Apotheosis",
+      "model_answer": "The formal process by which deceased emperors were made gods was known as apotheosis.",
+      "latency_ms": 63157.03,
+      "peak_memory_mb": 504.18,
+      "retrieved_chunks": [
+        ". That connection was also, and especially, visible in the \nworship of the emperor. \nThe imperial cult was a group of rites and practices that praised a deceased emperor\u2019s divine status. \nEmperors were often deified (made gods) after they died, by order of their successors and with approval by the \nSenate. This formal process of deification was known as apotheosis and was extended to emperors who were \nremembered favorably ( ). The process of deification had become so routine among later emperor",
+        "any routinely pushed for deification \nduring their own reigns. In the city of Rome, emperors were often closely associated with the gods, but only \nstereotypically \u201ccorrupt\u201d emperors such as Caligula declared themselves gods during their lifetimes. Still, \nmany compromises were made so living emperors were not directly worshipped. These included associating \nthe emperor with the goddess Roma, the divine representation of the city, or making sacrifices for the \nemperor\u2019s well-being rather than di",
+        "re added to this group of religious offices \nthat men could join to further their public careers. \n\u2018The worship of living emperors was much more muddled because Romans were wary of changing the custom \nAccess for free at openstax.org\n7.4 + Religion in the Roman Empire \nof deifying only deceased individuals. Julius Caesar seems to have intended to be worshiped as a god in his \nlifetime, and later emperors may have been aware of this plan because many routinely pushed for deification \nduring their"
+      ],
+      "retrieved_sources": [
+        "roman_empire.pdf",
+        "roman_empire.pdf",
+        "roman_empire.pdf"
+      ],
+      "scores": {
+        "accuracy": "correct",
+        "hallucination": false,
+        "grounding": "ungrounded",
+        "exact_match": true,
+        "refusal": false,
+        "manual_score": "correct"
+      }
+    },
+    {
+      "id": "Q20",
+      "condition": "B",
+      "question": "What were the large storage vessels used to ship wine and olive oil across the Roman Empire called?",
+      "reference_answer": "Amphorae",
+      "model_answer": "The large storage vessels used to ship wine and olive oil across the Roman Empire were called amphorae. These large storage vases had two handles and a pointed end, w of the Roman Empire.",
+      "latency_ms": 73541.17,
+      "peak_memory_mb": 504.86,
+      "retrieved_chunks": [
+        "ultural goods were an important aspect of the Roman economy and trade networks. Grain-producing \nEgypt functioned as the empire\u2019s breadbasket, and Italian farmers were therefore able to focus on other, \nhigher-priced agricultural products including wine and olive oil. Wine was exported to markets all over the \nMediterranean, including Greece and Gaul. Both wine and olive oil, as well as other goods, were usually \nshipped in amphorae. These large storage vases had two handles and a pointed end, w",
+        " of the Roman Empire. As this map demonstrates, the Romans were able to harness an \nextensive system of roads and waterways to import and export both practical and luxury goods. (attribution: \nCopyright Rice University, OpenStax, under CC BY 4.0 license) \nItaly was known for its ceramic, marble, and metal industries. Bronze goods such as cooking equipment and \nceramic tableware known as red pottery were especially popular items. Red Samian pottery made its way to \nplaces around the Mediterranean",
+        "and India and furs from the Baltic region. The \neastern empire was known for its luxury goods, including purple dye, papyrus, and glass from Egypt and Syria. \nFor a time, central Italy did manufacture and export glass products northward, until manufacturing in Gaul \n(present-day France) and Germany took over the majority of its production in the second century CE. Building \nsupplies such as tiles, marble, and bricks were produced in Italy. \nAgricultural goods were an important aspect of the Roma"
+      ],
+      "retrieved_sources": [
+        "roman_empire.pdf",
+        "roman_empire.pdf",
+        "roman_empire.pdf"
+      ],
+      "scores": {
+        "accuracy": "correct",
+        "hallucination": false,
+        "grounding": "ungrounded",
+        "exact_match": true,
+        "refusal": false,
+        "manual_score": "correct"
+      }
+    },
+    {
+      "id": "Q21",
+      "condition": "B",
+      "question": "Why was the layout of a wealthy Roman home designed to impress visitors?",
+      "reference_answer": "Because the floor plan emphasised the power relationship between a patron and his clients, as well as the authority and prestige of the paterfamilias, with fountains, gardens, and lavish features positioned so guests could see them upon arrival",
+      "model_answer": "The passage does not specify why the layout of a wealthy Roman home was designed to impress visitors, so I cannot answer this question from the provided context.",
+      "latency_ms": 73209.51,
+      "peak_memory_mb": 505.09,
+      "retrieved_chunks": [
+        "ty, OpenStax, under CC BY 4.0 license; \ncredit b: modification of work \u201cFresco from the villa of Publio Fannio Sinistore in Boscoreale\u201d by Metropolitan \nMuseum of Art, Rogers Fund, 1903/Wikimedia Commons, Public Domain) \n\u00ab What are the key features of an atrium house and what do they tell us about daily life in Rome? \n\u00ab How does the architecture of a typical Roman home reflect important aspects of Roman culture and society? \nLINK TO LEARNING \nExplore the ruins of the city of Pompeii (https:/open",
+        "nt. The domus, or family home, was where wealthy Romans \nconducted much of their business; a Roman patron would invite his clients to his home, and luxurious estates \nwere places of wealth display. Roman values about the family were mirrored in politics and culture, where \nthose who embodied Rome\u2019s cultural ideals were looked upon favorably. This especially applied to emperors, \ntheir families, and others in the public eye. \n7.2 Slavery in the Roman Empire \nRome relied on the labor of enslaved i",
+        "althy Roman men spent their time socializing and pursuing leisure \nactivities, such as attending public entertainment performances or visiting the bathhouse. \nBEYOND THE BOOK \nThe Plan of a Typical Roman Household \nThe most common type of Roman house was the atrium house, which could include two or more stories. Based \nmostly on evidence from Pompeii, we know that each house contained several key features. The fauces or \nvestibulum was the entryway. The atrium was the open-air reception hall whe"
+      ],
+      "retrieved_sources": [
+        "roman_empire.pdf",
+        "roman_empire.pdf",
+        "roman_empire.pdf"
+      ],
+      "scores": {
+        "accuracy": "refused",
+        "hallucination": false,
+        "grounding": "ungrounded",
+        "exact_match": false,
+        "refusal": true,
+        "manual_score": "wrong"
+      }
+    },
+    {
+      "id": "Q22",
+      "condition": "B",
+      "question": "Why was the annona both an economic and a political tool for Roman emperors?",
+      "reference_answer": "Because while it kept the populace fed, it also allowed emperors to associate themselves with generosity and build public support, meaning the distribution of grain was tied to the personality and image of the emperor",
+      "model_answer": "The annona was both an economic and a political tool for Roman emperors because it was used to distribute grain to the populace and was also a way for the emperor to endear himself to the people.",
+      "latency_ms": 80804.28,
+      "peak_memory_mb": 505.14,
+      "retrieved_chunks": [
+        "eavily tied to the personality of the emperor. For \ninstance, like many emperors, Hadrian, who ruled from 138 to 161 CE, associated himself with the annona to \ncreate a positive image before the public (Figure 7.12). \n287\n288 7+ Experiencing the Roman Empire \nFIGURE 7.12 The Annonaas Political Tool. On this coin issued by Hadrian, the emperor\u2019s likeness is on one side \n(left); the other side portrays Annona, the representation of the grain supply, holding a cornucopia in one hand and \ngrain ears",
+        "asily supervised. For signing contracts to supply grain, these shipowners \nreceived benefits including exemption from other public service. By the third and fourth centuries CE, control \nof the navicularii had intensified, and signing contracts to supply the annona was compulsory. \n\u2018The annona kept the populace fed but was also a political tool; the emperor hoped his generosity would endear \nhim to the people. The distribution of grain was thus heavily tied to the personality of the emperor. For",
+        "set in the soft ground. (credit: \u201cRoman Amphora\u201d by Mrs. Elvi Adamcak/ \nSmithsonian, National Museum of Natural History, CCO) \nThe government\u2019s official distribution of grain to the populace was called the annona and was especially \nimportant to Romans. It had begun in the second century BCE but took on new importance by the reign of \nAugustus. The emperor appointed the praefectus annonae, the prefect who oversaw the distribution process, \ngoverned the ports to which grain was shipped, and addre"
+      ],
+      "retrieved_sources": [
+        "roman_empire.pdf",
+        "roman_empire.pdf",
+        "roman_empire.pdf"
+      ],
+      "scores": {
+        "accuracy": "review_needed",
+        "hallucination": false,
+        "grounding": "ungrounded",
+        "exact_match": false,
+        "refusal": false,
+        "manual_score": "partial"
+      }
+    },
+    {
+      "id": "Q23",
+      "condition": "B",
+      "question": "Why did the Roman Empire rely so heavily on Egypt for its grain supply?",
+      "reference_answer": "Because Egypt functioned as the empire's breadbasket, producing grain on a large scale, which freed Italian farmers to focus on higher-priced agricultural products like wine and olive oil",
+      "model_answer": "The passage does not specify why the Roman Empire relied so heavily on Egypt for its grain supply, so I cannot answer this question from the provided context.",
+      "latency_ms": 70431.2,
+      "peak_memory_mb": 505.32,
+      "retrieved_chunks": [
+        "d out by publicani at the local level, but the \n304 7. Assessments \nsystem was imprecise, and reforms by Augustus and Diocletian show that taxation was an ongoing issue. \nIn many ways, the military was an extension of Rome\u2019s attempts at economic domination. Areas conquered by \nthe army could contribute resources to the economy, especially Egypt as Rome\u2019s primary supplier of grain. \nRome was in perpetual conflict by the time of the later empire, and despite the incentives for service in the \narmy",
+        "o twenty, and they were paid a set amount at the end \nof their service. Soldiers and military staff received a large portion of the wealth secured during wartime, and \nsome were also occasionally promised land taken in the various conflicts that Rome engaged in. \nMany military engagements were clearly intended to secure resources and capital. For instance, the empire\u2019s \ngrain supply was vastly expanded by its conquest of Egypt in the first century BCE, as well as of Sicily and \nSardinia early in",
+        "ultural goods were an important aspect of the Roman economy and trade networks. Grain-producing \nEgypt functioned as the empire\u2019s breadbasket, and Italian farmers were therefore able to focus on other, \nhigher-priced agricultural products including wine and olive oil. Wine was exported to markets all over the \nMediterranean, including Greece and Gaul. Both wine and olive oil, as well as other goods, were usually \nshipped in amphorae. These large storage vases had two handles and a pointed end, w"
+      ],
+      "retrieved_sources": [
+        "roman_empire.pdf",
+        "roman_empire.pdf",
+        "roman_empire.pdf"
+      ],
+      "scores": {
+        "accuracy": "refused",
+        "hallucination": false,
+        "grounding": "ungrounded",
+        "exact_match": false,
+        "refusal": true,
+        "manual_score": "wrong"
+      }
+    },
+    {
+      "id": "Q24",
+      "condition": "B",
+      "question": "Why was the imperial cult significant in Roman religious and political life?",
+      "reference_answer": "Because it connected religious practice with political loyalty by deifying deceased emperors, making worship of the emperor part of public life and allowing priesthoods attached to the cult to advance men's public careers",
+      "model_answer": "The passage does not specify why the imperial cult was significant in Roman religious and political life, so I cannot answer this question from the provided context.",
+      "latency_ms": 70085.75,
+      "peak_memory_mb": 505.95,
+      "retrieved_chunks": [
+        "nd despite the incentives for service in the \narmy, these military engagements must have taken a toll on the Roman people. \n7.4 Religion in the Roman Empire \nTraditional Roman religion had both public and private elements. In the public sphere, the imperial cult that \nworshipped deified emperors was a representation of the power of the imperial throne. The vestal virgins were \naway for a few women to hold a priesthood, though the occasional punishments inflicted on them shows their \nprecarious s",
+        ". That connection was also, and especially, visible in the \nworship of the emperor. \nThe imperial cult was a group of rites and practices that praised a deceased emperor\u2019s divine status. \nEmperors were often deified (made gods) after they died, by order of their successors and with approval by the \nSenate. This formal process of deification was known as apotheosis and was extended to emperors who were \nremembered favorably ( ). The process of deification had become so routine among later emperor",
+        "ts in the city of Rome. Elites were largely able to benefit from the economic \narrangement of conquest, but those in the lower classes no doubt shouldered the burden of its negative \nconsequences. \n7.4 Religion in the Roman Empire \nLEARNING OBJECTIVES \nBy the end of this section, you will be able to: \n+ Identify the major cults and religions found in the Roman Empire \n\u00ab Discuss how Romans accepted and adapted religions from other areas of the Empire \n\u00ab Explain the rise of Christianity in Rome \nR"
+      ],
+      "retrieved_sources": [
+        "roman_empire.pdf",
+        "roman_empire.pdf",
+        "roman_empire.pdf"
+      ],
+      "scores": {
+        "accuracy": "refused",
+        "hallucination": false,
+        "grounding": "ungrounded",
+        "exact_match": false,
+        "refusal": true,
+        "manual_score": "wrong"
+      }
+    },
+    {
+      "id": "Q25",
+      "condition": "B",
+      "question": "Why were the navicularii compelled by the Roman government to join collegia?",
+      "reference_answer": "So they could be easily supervised, and in exchange for signing contracts to supply grain they received benefits including exemption from other public service",
+      "model_answer": "The passage does not specify why the navicularii were compelled by the Roman government to join collegia, so I cannot answer this question from the provided context.",
+      "latency_ms": 68568.07,
+      "peak_memory_mb": 506.84,
+      "retrieved_chunks": [
+        "ed the ports to which grain was shipped, and addressed any fraud in the market. The prefect and his \nstaff also secured the grain supply from Egypt and other regions by signing contracts with various suppliers. \nThe Roman government was also generally concerned with controlling overseas trade. An elite class of \nshipowners known as the navicularii were compelled by the government to join groups known as collegia \n(corporations) so they could be easily supervised. For signing contracts to supply ",
+        "ners \nThe Roman Empire policed both its cultural and physical borders. In addition to maintaining their frontier \nwith an army, Romans carried on a perpetual debate about citizenship, or civitas, and whether to extend its \nbenefits to different groups. To gain civitas at birth, a person needed to be the child of two citizens. Citizenship \nconferred voting rights, the right to perform military service, the right to run for public office, and certain \nmarriage and property rights, among others. Th",
+        " empire\u2019s borders, not just those who lived in the shadow of the great Colosseum (Figure 7.1). \nRome was a patriarchal society that achieved success through military dominance, patriotism, and respect for \nauthority. Romans prided themselves on the status and reputation they achieved through military or political \nservice, as well as through their claims of noble ancestors. This arrangement largely benefited upper-class \nRoman men, while others struggled to navigate the system and were subject t"
+      ],
+      "retrieved_sources": [
+        "roman_empire.pdf",
+        "roman_empire.pdf",
+        "roman_empire.pdf"
+      ],
+      "scores": {
+        "accuracy": "refused",
+        "hallucination": false,
+        "grounding": "ungrounded",
+        "exact_match": false,
+        "refusal": true,
+        "manual_score": "wrong"
+      }
+    },
+    {
+      "id": "Q26",
+      "condition": "B",
+      "question": "According to the document, from what regions did the Roman Empire source silk and furs through the monsoon-driven Indian Ocean trade network?",
+      "reference_answer": "Silk came from China and India, and furs came from the Baltic region",
+      "model_answer": "According to the document, the Roman Empire sourced silk from China and India and furs from the Baltic region through the monsoon-driven Indian Ocean trade network.",
+      "latency_ms": 75857.45,
+      "peak_memory_mb": 500.11,
+      "retrieved_chunks": [
+        "ies balanced their production with imported goods from foreign markets. Textiles such as \nAccess for free at openstax.org\n7.3\u00ab The Roman Economy: Trade, Taxes, and Conquest \nwool and cloth were produced in Italy, while luxury items like linen came from Egypt. Several trading routes \nexisted in addition to the famous Silk Roads. The monsoon-driven Indian Ocean network linked Asia and the \nMediterranean and provided the Romans with silk from China and India and furs from the Baltic region. The \nea",
+        "en when they entered the structure as gladiators or as spectators. \n285\n286 7+ Experiencing the Roman Empire \n7.3 The Roman Economy: Trade, Taxes, and Conquest \nLEARNING OBJECTIVES \nBy the end of this section, you will be able to: \n\u00ab Identify key trade routes in the Roman Empire \n+ Explain how the Roman Empire used taxes to raise revenue and influence behavior \n+ Analyze the importance of conquest in the Roman economy \n\u2018The Roman economy was a massive and intricate system. Goods produced in and ",
+        " notable example. \nItaly itself was the producer of goods that made their way around the Mediterranean. Most manufacturing \noccurred on a small scale, with shops and workshops often located next to homes. Higher-value goods did find \ntheir way to distant regions, and Italy dominated the western trade routes (Figure 7.10). \nTrade Routes of \nthe Roman Empire \n------ Main roads \n----- > Main shipping routes \nATLANTIC \nOCEAN \nFIGURE 7.10 Trade Routes of the Roman Empire. As this map demonstrates, th"
+      ],
+      "retrieved_sources": [
+        "roman_empire.pdf",
+        "roman_empire.pdf",
+        "roman_empire.pdf"
+      ],
+      "scores": {
+        "accuracy": "review_needed",
+        "hallucination": false,
+        "grounding": "grounded",
+        "exact_match": false,
+        "refusal": false,
+        "manual_score": "correct"
+      }
+    },
+    {
+      "id": "Q27",
+      "condition": "B",
+      "question": "According to the document, which emperor ruled from 138 to 161 CE and used the annona to create a positive public image?",
+      "reference_answer": "Hadrian",
+      "model_answer": "According to the context, Hadrian ruled from 138 to 161 CE and associated himself with the annona to create a positive public image.",
+      "latency_ms": 79582.36,
+      "peak_memory_mb": 500.45,
+      "retrieved_chunks": [
+        "eavily tied to the personality of the emperor. For \ninstance, like many emperors, Hadrian, who ruled from 138 to 161 CE, associated himself with the annona to \ncreate a positive image before the public (Figure 7.12). \n287\n288 7+ Experiencing the Roman Empire \nFIGURE 7.12 The Annonaas Political Tool. On this coin issued by Hadrian, the emperor\u2019s likeness is on one side \n(left); the other side portrays Annona, the representation of the grain supply, holding a cornucopia in one hand and \ngrain ears",
+        "asily supervised. For signing contracts to supply grain, these shipowners \nreceived benefits including exemption from other public service. By the third and fourth centuries CE, control \nof the navicularii had intensified, and signing contracts to supply the annona was compulsory. \n\u2018The annona kept the populace fed but was also a political tool; the emperor hoped his generosity would endear \nhim to the people. The distribution of grain was thus heavily tied to the personality of the emperor. For",
+        "set in the soft ground. (credit: \u201cRoman Amphora\u201d by Mrs. Elvi Adamcak/ \nSmithsonian, National Museum of Natural History, CCO) \nThe government\u2019s official distribution of grain to the populace was called the annona and was especially \nimportant to Romans. It had begun in the second century BCE but took on new importance by the reign of \nAugustus. The emperor appointed the praefectus annonae, the prefect who oversaw the distribution process, \ngoverned the ports to which grain was shipped, and addre"
+      ],
+      "retrieved_sources": [
+        "roman_empire.pdf",
+        "roman_empire.pdf",
+        "roman_empire.pdf"
+      ],
+      "scores": {
+        "accuracy": "correct",
+        "hallucination": false,
+        "grounding": "grounded",
+        "exact_match": true,
+        "refusal": false,
+        "manual_score": "correct"
+      }
+    },
+    {
+      "id": "Q28",
+      "condition": "B",
+      "question": "According to the document, what was the role of the praefectus annonae?",
+      "reference_answer": "The prefect who oversaw the grain distribution process, governed the ports to which grain was shipped, addressed fraud in the market, and secured the grain supply from Egypt and other regions by signing contracts with suppliers",
+      "model_answer": "According to the document, the praefectus annonae was the prefect who oversaw the distribution process, governed the ports to which grain was shipped, and addressed the personality of the emperor.",
+      "latency_ms": 81279.94,
+      "peak_memory_mb": 484.87,
+      "retrieved_chunks": [
+        "set in the soft ground. (credit: \u201cRoman Amphora\u201d by Mrs. Elvi Adamcak/ \nSmithsonian, National Museum of Natural History, CCO) \nThe government\u2019s official distribution of grain to the populace was called the annona and was especially \nimportant to Romans. It had begun in the second century BCE but took on new importance by the reign of \nAugustus. The emperor appointed the praefectus annonae, the prefect who oversaw the distribution process, \ngoverned the ports to which grain was shipped, and addre",
+        "eavily tied to the personality of the emperor. For \ninstance, like many emperors, Hadrian, who ruled from 138 to 161 CE, associated himself with the annona to \ncreate a positive image before the public (Figure 7.12). \n287\n288 7+ Experiencing the Roman Empire \nFIGURE 7.12 The Annonaas Political Tool. On this coin issued by Hadrian, the emperor\u2019s likeness is on one side \n(left); the other side portrays Annona, the representation of the grain supply, holding a cornucopia in one hand and \ngrain ears",
+        "asily supervised. For signing contracts to supply grain, these shipowners \nreceived benefits including exemption from other public service. By the third and fourth centuries CE, control \nof the navicularii had intensified, and signing contracts to supply the annona was compulsory. \n\u2018The annona kept the populace fed but was also a political tool; the emperor hoped his generosity would endear \nhim to the people. The distribution of grain was thus heavily tied to the personality of the emperor. For"
+      ],
+      "retrieved_sources": [
+        "roman_empire.pdf",
+        "roman_empire.pdf",
+        "roman_empire.pdf"
+      ],
+      "scores": {
+        "accuracy": "review_needed",
+        "hallucination": false,
+        "grounding": "grounded",
+        "exact_match": false,
+        "refusal": false,
+        "manual_score": "partial"
+      }
+    },
+    {
+      "id": "Q29",
+      "condition": "B",
+      "question": "According to the document, what happened to glass manufacturing in central Italy in the second century CE?",
+      "reference_answer": "Manufacturing in Gaul (present-day France) and Germany took over the majority of its production",
+      "model_answer": "According to the passage, glass manufacturing in central Italy in the second century CE took over by manufacturing and exporting glass products northward.",
+      "latency_ms": 65553.0,
+      "peak_memory_mb": 484.98,
+      "retrieved_chunks": [
+        "and India and furs from the Baltic region. The \neastern empire was known for its luxury goods, including purple dye, papyrus, and glass from Egypt and Syria. \nFor a time, central Italy did manufacture and export glass products northward, until manufacturing in Gaul \n(present-day France) and Germany took over the majority of its production in the second century CE. Building \nsupplies such as tiles, marble, and bricks were produced in Italy. \nAgricultural goods were an important aspect of the Roma",
+        " of the Roman Empire. As this map demonstrates, the Romans were able to harness an \nextensive system of roads and waterways to import and export both practical and luxury goods. (attribution: \nCopyright Rice University, OpenStax, under CC BY 4.0 license) \nItaly was known for its ceramic, marble, and metal industries. Bronze goods such as cooking equipment and \nceramic tableware known as red pottery were especially popular items. Red Samian pottery made its way to \nplaces around the Mediterranean",
+        "y made its way to \nplaces around the Mediterranean and beyond, including Britain and India. Iron goods produced in Italy were \nexported to Germany and to the Danube region, while bronze goods, most notably from Capua, circulated in \nthe northern reaches of the empire before workshops also developed there. These industries likewise relied on \nimports, including copper from mines in Spain and tin from Britain for making bronze. \nOther Roman industries balanced their production with imported goods "
+      ],
+      "retrieved_sources": [
+        "roman_empire.pdf",
+        "roman_empire.pdf",
+        "roman_empire.pdf"
+      ],
+      "scores": {
+        "accuracy": "review_needed",
+        "hallucination": true,
+        "grounding": "grounded",
+        "exact_match": false,
+        "refusal": false,
+        "manual_score": "wrong"
+      }
+    },
+    {
+      "id": "Q30",
+      "condition": "B",
+      "question": "According to the document, what volcanic event preserved the city of Pompeii and made it a key source of information about daily Roman life?",
+      "reference_answer": "The eruption of Mount Vesuvius in 79 CE",
+      "model_answer": "According to the context, the volcanic event that preserved the city of Pompeii was the eruption of Mount Vesuvius in 79 CE.",
+      "latency_ms": 76035.58,
+      "peak_memory_mb": 485.23,
+      "retrieved_chunks": [
+        "lore the ruins of the city of Pompeii (https:/openstax.org/l/77Pompeii) to learn more. Remarkably \npreserved after the eruption of Mount Vesuvius in 79 CE, the city is our finest source of information about daily \nlife in a Roman city. \nThe wealthiest Romans had both houses in the city and villas in the countryside. Suburban villas were located \njust outside a city\u2019s walls, and villas located in the countryside typically originated as agricultural estates. \nLarge estates, known as latifundia, we",
+        "lves with this work. Despite these expectations, there is evidence that many \nwomen, particularly non-elite women, held professions outside the home, including in medicine, trade, and \nagriculture. \nA Day in the Life of a Roman Family \nRomans lived and worked in a variety of contexts across the empire. Most of our evidence of the practical \nelements of their daily lives comes from archaeological evidence uncovered at Pompeii. The remains of this \nonce-bustling city (which was destroyed by a volc",
+        "ty, OpenStax, under CC BY 4.0 license; \ncredit b: modification of work \u201cFresco from the villa of Publio Fannio Sinistore in Boscoreale\u201d by Metropolitan \nMuseum of Art, Rogers Fund, 1903/Wikimedia Commons, Public Domain) \n\u00ab What are the key features of an atrium house and what do they tell us about daily life in Rome? \n\u00ab How does the architecture of a typical Roman home reflect important aspects of Roman culture and society? \nLINK TO LEARNING \nExplore the ruins of the city of Pompeii (https:/open"
+      ],
+      "retrieved_sources": [
+        "roman_empire.pdf",
+        "roman_empire.pdf",
+        "roman_empire.pdf"
+      ],
+      "scores": {
+        "accuracy": "correct",
+        "hallucination": false,
+        "grounding": "grounded",
+        "exact_match": true,
+        "refusal": false,
+        "manual_score": "correct"
+      }
+    }
+  ]
+}

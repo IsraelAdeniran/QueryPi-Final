@@ -22,3 +22,8 @@ pypdf
 # System monitoring
 # Used to measure peak RAM usage during model inference
 psutil
+
+# Data Analysis
+# Used to plot graphs of results
+matplotlib
+numpy
