@@ -11,7 +11,7 @@ The goal is to explore whether small, quantised language models can serve as eff
 Three lightweight language models are tested across two conditions:
 
 - **Condition A:** the model answers questions using only its built-in knowledge
-- **Condition B:**  the model is given relevant context retrieved from local documents via a RAG pipeline
+- **Condition B:** the model is given relevant context retrieved from local documents via a RAG pipeline
 
 Performance is measured across five metrics: response latency, memory usage, answer accuracy, hallucination rate, and document grounding.
 
@@ -28,19 +28,23 @@ All models are run in Q4 quantised format via [Ollama](https://ollama.com), enti
 
 ```
 QueryPi-Final/
-├── main.py              # Entry point - runs the full experiment pipeline
-├── questions.py         # Loads and organises questions from questions.json
-├── questions.json       # 30 questions across two topics and three categories
-├── rag_setup.py         # Builds the ChromaDB vector database from local documents
-├── requirements.txt     # Python dependencies
+├── main.py                  # Entry point - runs the full experiment pipeline
+├── questions.py             # Loads and organises questions from questions.json
+├── questions.json           # 30 questions across two topics and three categories
+├── rag_setup.py             # Builds the ChromaDB vector database from local documents
+├── evaluate_results.py      # Scores results and saves to scored_results/
+├── demo.py                  # Demo script for comparing Condition A vs B with TinyLlama
+├── analysis.ipynb           # Jupyter notebook for visualising results
+├── requirements.txt         # Python dependencies
 ├── documents/
 │   ├── astronomy.pdf        # Science document (solar system)
 │   └── roman_empire.pdf     # History document (Roman Empire)
 ├── models/
-│   ├── tinyllama.py     # Experiment runner for TinyLlama 1.1B
-│   ├── gemma.py         # Experiment runner for Gemma 2B
-│   └── qwen.py          # Experiment runner for Qwen 2.5 3B
-└── results/             # Output folder - JSON results saved here after running
+│   ├── tinyllama.py         # Experiment runner for TinyLlama 1.1B
+│   ├── gemma.py             # Experiment runner for Gemma 2B
+│   └── qwen.py              # Experiment runner for Qwen 2.5 3B
+├── results/                 # Raw JSON results saved here after running experiments
+└── scored_results/          # Scored JSON files saved here after running evaluate_results.py
 ```
 
 ---
@@ -92,7 +96,7 @@ ollama pull gemma:2b-instruct-q4_0
 ollama pull qwen2.5:3b-instruct-q4_K_M
 ```
 
-This must be done while connected to the internet. Once pulled, all models run fully offline.
+This must be done while connected to the internet.
 
 ---
 
@@ -130,6 +134,55 @@ python3 models/tinyllama.py
 python3 models/gemma.py
 python3 models/qwen.py
 ```
+
+---
+
+## Evaluating results
+
+After the experiment has run, score the results using `evaluate_results.py`:
+
+```bash
+python3 evaluate_results.py
+```
+
+This script scores each model's answers across three metrics:
+
+- **Answer accuracy:** checks whether the model's answer contains the reference answer (exact match)
+- **Hallucination rate:** flags answers that are missing key terms from the reference answer
+- **Document grounding:** checks whether the model explicitly references retrieved context (Condition B only)
+
+A summary is printed to the terminal and scored JSON files are saved to the `scored_results/` folder:
+
+```
+scored_results/
+├── tinyllama_scored.json
+├── gemma_scored.json
+└── qwen_scored.json
+```
+
+Answers flagged as `review_needed` should be manually inspected and their `manual_score` field updated to either `"correct"` or `"partial"` in the scored JSON files before running the analysis notebook.
+
+---
+
+## Running the demo
+
+`demo.py` is a standalone script for demonstrating the effect of RAG on a single question. It runs TinyLlama under both Condition A and Condition B and prints the answers side by side — useful for presentations or quick testing.
+
+```bash
+python3 demo.py
+```
+
+---
+
+## Analysing results
+
+Once the scored JSON files have been reviewed and updated, open the Jupyter notebook to visualise results:
+
+```bash
+jupyter notebook analysis.ipynb
+```
+
+The notebook produces charts covering accuracy, hallucination rates, document grounding, latency, and memory usage across all three models and both conditions.
 
 ---
 
